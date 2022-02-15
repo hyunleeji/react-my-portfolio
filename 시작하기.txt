@@ -16,4 +16,4 @@ npm install
 -
 cd ..
 -
-npm start
+npm start !! gkgldkgls
