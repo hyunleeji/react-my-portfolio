@@ -10,10 +10,10 @@ npm start
 ctrl + c 로 종료(다시 터미널 기본경로로)
 
 
-지현이@DESKTOP-IV1QC13 MINGW64 ~/Desktop/react-my-portfolio-main/react-my-portfolio-main/src
+지현이@DESKTOP-IV1QC13 MINGW64 ~/Desktop/react-my-portfolio-main
 -
 npm install
 -
 cd ..
 -
-npm start !! gkgldkgls 안녕하소오~~ dk안녕~~
+npm start
