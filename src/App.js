@@ -56,4 +56,6 @@ function App() {
     )
 }
 
+// 안녕하세요 적용이 되어야 하는데...
+
 export default App;
