@@ -16,4 +16,4 @@ npm install
 -
 cd ..
 -
-npm start !! gkgldkgls 안녕하소오~~
+npm start !! gkgldkgls 안녕하소오~~ dk안녕~~
