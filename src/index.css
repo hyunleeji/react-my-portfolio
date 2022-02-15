@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-Regular.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-Regular.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-Medium.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-Medium.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-SemiBold.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-SemiBold.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-SemiBold.woff2")
+      format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-Bold.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-Bold.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-Bold.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-ExtraBold.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-ExtraBold.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-ExtraBold.woff2")
+      format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'EB Garamond', serif;
+  src: url("fonts/ttf/EBGaramond-Italic.ttf")
+      format("truetype"),
+    url("fonts/woff/EBGaramond-Italic.woff")
+      format("woff"),
+    url("fonts/woff2/EBGaramond-Italic.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+}
+
+/* @font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  src: url("fonts/ttf/NanumGothic-Regular.ttf")
+      format("truetype"),
+    url("fonts/woff/NanumGothic-Regular.woff")
+      format("woff"),
+    url("fonts/woff2/NanumGothic-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  src: url("fonts/ttf/NanumGothic-Bold.ttf")
+      format("truetype"),
+    url("fonts/woff/NanumGothic-Bold.woff")
+      format("woff"),
+    url("fonts/woff/NanumGothic-Bold.woff")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+
+@font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  src: url("fonts/ttf/NanumGothic-ExtraBold.ttf")
+      format("truetype"),
+    url("fonts/woff/NanumGothic-ExtraBold.woff")
+      format("woff"),
+    url("fonts/woff2/NanumGothic-ExtraBold.woff2")
+      format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
+} */
+
+body {
+  margin: 0;
+  font-family: 'EB Garamond','Bai Jamjuree', 'Noto Sans KR' ;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h2, div, span, article, section, header, footer, aside, p, ul, li, fieldset, legend, label, a, nav, form {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+a, ol, ul, li {
+	list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: cornsilk;
+}
+h3 {
+  margin-top: 5rem;
+}
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+:visited { color: #6495ed; } 
+
+input, textarea {
+  background: #cac6fa;
+    border-radius: .3rem;
+    border: 1px solid transparent;
+    height: 39px;
+    width: 250px;
+    padding-left: 1rem;
+}
+textarea {
+  height: 80px;
+}
+label {
+  font-size: 1.3rem;
+  color: #cac6fa;
+  margin: 0.5rem 0;
+}

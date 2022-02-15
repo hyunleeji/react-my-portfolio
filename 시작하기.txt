@@ -1,0 +1,18 @@
+
+터미널 : 지현이@DESKTOP-IV1QC13 MINGW64 /d/coording 기준
+-
+cd my-portfolio
+-
+cd my-app
+-
+npm start
+-
+ctrl + c 로 종료(다시 터미널 기본경로로)
+
+지현이@DESKTOP-IV1QC13 MINGW64 ~/Desktop/react-my-portfolio-main/react-my-portfolio-main/src
+-
+npm install
+-
+cd ..
+-
+npm start
